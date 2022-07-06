@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body {
+  background-color: #F2F5C8;
+  font-family: 'Koulen', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 620px;
+  background-color: #E8E8A6;
+}
+
+.placeDescription {
+  font-family: 'Poppins', sans-serif;
+  background-color: #E8E8A6;
+  text-align: justify;
+  font-size: 12px;
+  padding: 10px;
+  width: 600px;
+}
+
+.heading {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 620px;
+  background-color: #E8E8A6;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+  border: 4px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.deletePlaceBtn {
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  font-family: 'Koulen', cursive;
+  background-color: #219F94;
+  cursor: pointer;
+}
+
+.prevNextBtn {
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  width: 100px;
+  font-family: 'Koulen', cursive;
+  background-color: #C1DEAE;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  width: 620px;
+  justify-content: space-around;
+  background-color: #E8E8A6;
+}
+
+.deleteAll {
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+  width: 150px;
+  font-family: 'Koulen', cursive;
+  background-color: #C84B31;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.showButton {
+  border: none;
+  background-color: #E8E8A6;
+  cursor: pointer;
+  font-size: 13px;
+  color: #000957;
 }
